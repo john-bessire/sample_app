@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # == Schema Information
 #
 # Table name: users
@@ -23,3 +24,7 @@ class User < ActiveRecord::Base
   validates :password_confirmation, presence: true
 end
 
+=======
+class User < ActiveRecord::Base
+end
+>>>>>>> modeling-users
