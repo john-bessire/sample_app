@@ -13,11 +13,8 @@ gem 'sqlite3'
 
 group :development do
   gem 'rspec-rails', '2.9.0'
-<<<<<<< HEAD
   gem 'annotate', '~>2.4.1.beta'
-=======
-  gem 'annotate', '2.4.0'
->>>>>>> modeling-users
+#  gem 'annotate', '2.4.0'
 end
 
 group :test do
