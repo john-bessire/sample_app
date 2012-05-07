@@ -1,6 +1,7 @@
 require 'spec_helper'
 
-describe PagesController do
+describe StaticPagesController do
+
   render_views
 
   describe "GET 'home'" do
@@ -57,6 +58,5 @@ describe PagesController do
                           "Ruby on Rails Tutorial Sample App | Help")
     end
   end
-
 
 end
