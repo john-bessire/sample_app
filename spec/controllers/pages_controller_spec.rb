@@ -13,7 +13,7 @@ describe StaticPagesController do
     it "should have the right title" do
       get 'home'
       response.should have_selector("title",
-                        :content => "Ruby on Rails Tutorial Sample App | Home")
+                        :content => "Sample App | Home")
     end
   end
 
@@ -27,7 +27,7 @@ describe StaticPagesController do
       get 'contact'
       response.should have_selector("title",
                         :content =>
-                          "Ruby on Rails Tutorial Sample App | Contact")
+                          "Sample App | Contact")
     end
   end
 
@@ -41,7 +41,7 @@ describe StaticPagesController do
       get 'about'
       response.should have_selector("title",
                         :content =>
-                          "Ruby on Rails Tutorial Sample App | About")
+                          "Sample App | About")
     end
   end
 
@@ -55,7 +55,7 @@ describe StaticPagesController do
       get 'help'
       response.should have_selector("title",
                         :content =>
-                          "Ruby on Rails Tutorial Sample App | Help")
+                          "Sample App | Help")
     end
   end
 
